@@ -1,0 +1,77 @@
+
+.curved { /*section no cabeçalho */
+  position: relative;
+  background: #2c3e50;
+  height: 50vh;
+  border-bottom-left-radius: 50% 39%;
+  border-bottom-right-radius: 50% 39%;
+}
+
+button {
+	background-color: green;
+
+	width: 200px; /* Ajustar a largura */
+    height: 50px; /* Ajustar a altura  */
+    margin-left: 40%;
+    border-radius: 30%;
+}
+
+
+   #texto {
+
+   	font-size: 25px;
+   }
+
+#img {
+	
+	width: 100px;
+	height: 100px;
+}
+
+
+#img02 {
+	
+	width: 400px;
+	height: 800px;
+}
+
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div01 { grid-area: 1 / 1 / 2 / 2; }
+.div02 { grid-area: 1 / 3 / 2 / 4; }
+.div03 { grid-area: 1 / 5 / 2 / 6; }
+.div04 { grid-area: 2 / 2 / 3 / 3; }
+.div05 { grid-area: 2 / 4 / 3 / 5; }
+
+.grid02 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+
+
+@media only screen and (max-width: 768px) {
+  body {
+ background-color: green;
+
+ 
+   }
+
+
